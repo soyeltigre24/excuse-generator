@@ -14,6 +14,6 @@ window.onload=()=>{
 
 
     
-        return document.querySelector("#excuse").innerHTML = who["anything"] //""+ action[actionindex]+''+ what[whatindex]+""+ when[whenindex];
+        return (document.querySelector("#excuse").innerHTML = who["anything"] + action[actionindex]+''+ what[whatindex]+""+ when[whenindex]);
     }
 }
